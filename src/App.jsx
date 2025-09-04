@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>React Quiz App</h1>
+        <h1>Q U I Z  -  A P P</h1>
       </header>
       <main>
         <QuizContainer />
