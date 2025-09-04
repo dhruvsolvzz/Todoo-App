@@ -319,6 +319,42 @@ body {
   }
 }
 
+/* Small devices responsiveness */
+@media (max-width: 480px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .quiz-container,
+  .quiz-settings {
+    padding: 1.5rem 1rem;
+    margin: 0.5rem;
+    max-width: 100%;
+  }
+
+  .nav-button,
+  .restart-button,
+  .start-button {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .options {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .option {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .progress-text,
+  .timer-text {
+    font-size: 0.8rem;
+  }
+}
+
 /* Timer styles */
 .timer-container {
   margin-bottom: 1rem;
